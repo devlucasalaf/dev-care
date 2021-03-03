@@ -5,11 +5,9 @@ import {ChallengesContext, ChallengesProvider} from '../contexts/ChallengesConte
 function MyApp({ Component, pageProps }) {
 
 
-  return ( 
-    <ChallengesProvider>
+  return (     
         <Component {...pageProps} />  
-    </ChallengesProvider>
-       
+          
   )
   
   
